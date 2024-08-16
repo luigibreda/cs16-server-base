@@ -185,6 +185,18 @@ suggested on Steam manual, a few issues may arise.
 
 This Docker image fix all these errors gracefully so you don't have to worry.
 
+## Comando adicionais
+
+1 - Limpar Docker
+```bash
+docker system prune -a --volumes
+```
+
+2 - Entrar no modo linha de comando do container Docker
+```bash
+docker exec -it hlds-cs16-master-hlds-1 /bin/bash
+```
+
 ## Compatibility
 
 Currently, this server is compatible with MacOS and Linux.
